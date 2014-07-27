@@ -40,6 +40,7 @@ A data frame written to a text file, '/UCI HAR Dataset/summData.txt'. The data h
 ```
     read.table("./UCI HAR Dataset/summData.txt",sep="",header=T)
 ```
+The data frame contains the mean of all variables which are a measure of either a mean or a standard deviation (std appears in column header). The mean is calculated at the group level, where the group is each unique combination of activity and subject. 
 
 Notes: 
 1. The subjects and activities (labels) and sets (data variables) are only linked by order- ie by row number. So the         relative order between these sources should be preserved
