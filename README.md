@@ -36,7 +36,7 @@ The inputs for the script are:
 
 The outputs for the script are:
 
-A data frame written to a text file, '/UCI HAR Dataset/summData.txt'. The file can be read into R using :
+A data frame written to a text file, '/UCI HAR Dataset/summData.txt'. The data has column headers and is separated by whitespaces. The file can be read into R using :
 ```
     read.table("./UCI HAR Dataset/summData.txt",sep="",header=T)
 ```
