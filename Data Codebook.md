@@ -60,23 +60,24 @@ The output has the following items:
    numerical 1-30 representing an identifier code for each subject for which data was collected and observed
    
 For the following, the value shown is the mean of the observations for the group in column 1 and 2
-3.timeBodyAcc_mean_X
-4	timeBodyAcc_mean_Y
-5	timeBodyAcc_mean_Z
-6	timeBodyAcc_std_X
-7	timeBodyAcc_std_Y
-8	timeBodyAcc_std_Z
-9	tGravityAcc_mean_X
-10	tGravityAcc_mean_Y
-11	tGravityAcc_mean_Z
-12	tGravityAcc_std_X
-13	tGravityAcc_std_Y
-14	tGravityAcc_std_Z
-15	timeBodyAccJerk_mean_X
-16	timeBodyAccJerk_mean_Y
-17	timeBodyAccJerk_mean_Z
-18	timeBodyAccJerk_std_X
-19	timeBodyAccJerk_std_Y
+
+3.  timeBodyAcc_mean_X
+4.  timeBodyAcc_mean_Y
+5.  timeBodyAcc_mean_Z
+6.  timeBodyAcc_std_X
+7.  timeBodyAcc_std_Y
+8.  timeBodyAcc_std_Z
+9.  tGravityAcc_mean_X
+10.  tGravityAcc_mean_Yt
+11.  tGravityAcc_mean_Z
+12.  tGravityAcc_std_X
+13.  tGravityAcc_std_Y
+14.  tGravityAcc_std_Z
+15.  timeBodyAccJerk_mean_X
+16.  timeBodyAccJerk_mean_Y
+17.  timeBodyAccJerk_mean_Z
+18.  timeBodyAccJerk_std_X
+19.  timeBodyAccJerk_std_Y
 20	timeBodyAccJerk_std_Z
 21	timeBodyGyro_mean_X
 22	timeBodyGyro_mean_Y
