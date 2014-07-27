@@ -78,68 +78,68 @@ For the following, the value shown is the mean of the observations for the group
 17.  timeBodyAccJerk_mean_Z
 18.  timeBodyAccJerk_std_X
 19.  timeBodyAccJerk_std_Y
-20	timeBodyAccJerk_std_Z
-21	timeBodyGyro_mean_X
-22	timeBodyGyro_mean_Y
-23	timeBodyGyro_mean_Z
-24	timeBodyGyro_std_X
-25	timeBodyGyro_std_Y
-26	timeBodyGyro_std_Z
-27	timeBodyGyroJerk_mean_X
-28	timeBodyGyroJerk_mean_Y
-29	timeBodyGyroJerk_mean_Z
-30	timeBodyGyroJerk_std_X
-31	timeBodyGyroJerk_std_Y
-32	timeBodyGyroJerk_std_Z
-33	timeBodyAccMag_mean
-34	timeBodyAccMag_std
-35	tGravityAccMag_mean
-36	tGravityAccMag_std
-37	timeBodyAccJerkMag_mean
-38	timeBodyAccJerkMag_std
-39	timeBodyGyroMag_mean
-40	timeBodyGyroMag_std
-41	timeBodyGyroJerkMag_mean
-42	timeBodyGyroJerkMag_std
-43	freqBodyAcc_mean_X
-44	freqBodyAcc_mean_Y
-45	freqBodyAcc_mean_Z
-46	freqBodyAcc_std_X
-47	freqBodyAcc_std_Y
-48	freqBodyAcc_std_Z
-49	freqBodyAcc_meanFreq_X
-50	freqBodyAcc_meanFreq_Y
-51	freqBodyAcc_meanFreq_Z
-52	freqBodyAccJerk_mean_X
-53	freqBodyAccJerk_mean_Y
-54	freqBodyAccJerk_mean_Z
-55	freqBodyAccJerk_std_X
-56	freqBodyAccJerk_std_Y
-57	freqBodyAccJerk_std_Z
-58	freqBodyAccJerk_meanFreq_X
-59	freqBodyAccJerk_meanFreq_Y
-60	freqBodyAccJerk_meanFreq_Z
-61	freqBodyGyro_mean_X
-62	freqBodyGyro_mean_Y
-63	freqBodyGyro_mean_Z
-64	freqBodyGyro_std_X
-65	freqBodyGyro_std_Y
-66	freqBodyGyro_std_Z
-67	freqBodyGyro_meanFreq_X
-68	freqBodyGyro_meanFreq_Y
-69	freqBodyGyro_meanFreq_Z
-70	freqBodyAccMag_mean
-71	freqBodyAccMag_std
-72	freqBodyAccMag_meanFreq
-73	freqBodyAccJerkMag_mean
-74	freqBodyAccJerkMag_std
-75	freqBodyAccJerkMag_meanFreq
-76	freqBodyGyroMag_mean
-77	freqBodyGyroMag_std
-78	freqBodyGyroMag_meanFreq
-79	freqBodyGyroJerkMag_mean
-80	freqBodyGyroJerkMag_std
-81	freqBodyGyroJerkMag_meanFreq
+20.  timeBodyAccJerk_std_Z
+21.  timeBodyGyro_mean_X
+22.  timeBodyGyro_mean_Y
+23.  timeBodyGyro_mean_Z
+24.  timeBodyGyro_std_X
+25.  timeBodyGyro_std_Y
+26.	 timeBodyGyro_std_Z
+27.	 timeBodyGyroJerk_mean_X
+28.	 timeBodyGyroJerk_mean_Y
+29.	 timeBodyGyroJerk_mean_Z
+30.	 timeBodyGyroJerk_std_X
+31.	 timeBodyGyroJerk_std_Y
+32.	 timeBodyGyroJerk_std_Z
+33.	 timeBodyAccMag_mean
+34.	 34	timeBodyAccMag_std
+35.	 35	tGravityAccMag_mean
+36.	 tGravityAccMag_std
+37.	 timeBodyAccJerkMag_mean
+38.	 timeBodyAccJerkMag_std
+39.	 timeBodyGyroMag_mean
+40.	 timeBodyGyroMag_std
+41.	 timeBodyGyroJerkMag_mean
+42.	 timeBodyGyroJerkMag_std
+43.	 freqBodyAcc_mean_X
+44.	 freqBodyAcc_mean_Y
+45.	 freqBodyAcc_mean_Z
+46.	 freqBodyAcc_std_X
+47.	 freqBodyAcc_std_Y
+48.	 freqBodyAcc_std_Z
+49.	 freqBodyAcc_meanFreq_X
+50.	 freqBodyAcc_meanFreq_Y
+51.	 freqBodyAcc_meanFreq_Z
+52.	 freqBodyAccJerk_mean_X
+53.	 freqBodyAccJerk_mean_Y
+54.	 freqBodyAccJerk_mean_Z
+55.	 freqBodyAccJerk_std_X
+56.	 freqBodyAccJerk_std_Y
+57.	 freqBodyAccJerk_std_Z
+58.	 freqBodyAccJerk_meanFreq_X
+59.	 freqBodyAccJerk_meanFreq_Y
+60.	freqBodyAccJerk_meanFreq_Z
+61.	freqBodyGyro_mean_X
+62.	freqBodyGyro_mean_Y
+63.	freqBodyGyro_mean_Z
+64.	freqBodyGyro_std_X
+65.	freqBodyGyro_std_Y
+66.	freqBodyGyro_std_Z
+67.	freqBodyGyro_meanFreq_X
+68.	freqBodyGyro_meanFreq_Y
+69.	freqBodyGyro_meanFreq_Z
+70.	freqBodyAccMag_mean
+71.	freqBodyAccMag_std
+72.	freqBodyAccMag_meanFreq
+73.	freqBodyAccJerkMag_mean
+74.	freqBodyAccJerkMag_std
+75.	freqBodyAccJerkMag_meanFreq
+76.	freqBodyGyroMag_mean
+77.	freqBodyGyroMag_std
+78.	freqBodyGyroMag_meanFreq
+79.	freqBodyGyroJerkMag_mean
+80.	freqBodyGyroJerkMag_std
+81.	freqBodyGyroJerkMag_meanFreq
    
 
 ORIGINAL DATA-CODEBOOK
@@ -153,23 +153,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+*   tBodyAcc-XYZ
+*   tGravityAcc-XYZ
+*   tBodyAccJerk-XYZ
+*   tBodyGyro-XYZ
+*   tBodyGyroJerk-XYZ
+*   tBodyAccMag
+*   tGravityAccMag
+*   tBodyAccJerkMag
+*   tBodyGyroMag
+*   tBodyGyroJerkMag
+*   fBodyAcc-XYZ
+*   fBodyAccJerk-XYZ
+*   fBodyGyro-XYZ
+*   fBodyAccMag
+*   fBodyAccJerkMag
+*   fBodyGyroMag
+*   fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
