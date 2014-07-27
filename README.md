@@ -24,7 +24,7 @@ This script processes data collected from the accelerometers from the Samsung Ga
 5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 
-The inputs for the script are: 
+The inputs for the script are : 
 
 1.  'features.txt': List of all features- used for variable descriptions
 2.  'activity_labels.txt': Links the class labels (activity id number) with their activity name.
@@ -34,6 +34,8 @@ The inputs for the script are:
 6.  'test/y_test.txt': Test labels.
 7.  'train/subject_train.txt' : identifier for subject observed
 8.  'test/subject_test.txt'   : identifier for subject observed
+
+The script assumes the files have been downloaded in zip format and are extracted to the <working directory>'/UCI HAR Dataset/' folder. The full description of the data source can be found in the 'Data Codebook.md' file.
 
 The outputs for the script are:
 
