@@ -25,6 +25,7 @@ This script processes data collected from the accelerometers from the Samsung Ga
 
 
 The inputs for the script are: 
+
 1.  'features.txt': List of all features- used for variable descriptions
 2.  'activity_labels.txt': Links the class labels (activity id number) with their activity name.
 3.  'train/X_train.txt': Training set.
@@ -43,6 +44,7 @@ A data frame written to a text file, '/UCI HAR Dataset/summData.txt'. The data h
 The data frame contains the mean of all variables which are a measure of either a mean or a standard deviation (std appears in column header). The mean is calculated at the group level, where the group is each unique combination of activity and subject. 
 
 Notes: 
+
 1. The subjects and activities (labels) and sets (data variables) are only linked by order- ie by row number. So the         relative order between these sources should be preserved
 2. The above directories are relative to the <working directory>'/UCI HAR Dataset/' . When extracting the data from the      zip file, the extract can be done to the working directory and the structure should be recreated
 3. Packages required- base package
